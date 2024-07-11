@@ -2,6 +2,7 @@
 #include<string>
 #include<map>
 #include<vector>
+#include"Dairy.h"
 
 using namespace std;
 
@@ -35,12 +36,8 @@ int main()
     //    cout << item->first << " " << item->second << endl;
     //}
 
-
-
-
-
-
-
+    Dairy Daniil;
+    Daniil.showInfo();
 
 
 }
