@@ -39,5 +39,20 @@ int main()
     Dairy Daniil;
     Daniil.showInfo();
 
+    cout << "------------------------------------" << endl;
 
+    Daniil.addEvent(Date() , "sleep");
+    Daniil.showInfo();
+
+    cout << "------------------------------------" << endl;
+
+    Daniil.findEvent(Date());
+    Daniil.findEvent(Date() - 50);
+
+    cout << "------------------------------------" << endl;
+
+    Daniil.delEvent(Date(), 0);
+    Daniil.delEvent(Date()+1, 0);
+
+    Daniil.showInfo();
 }
